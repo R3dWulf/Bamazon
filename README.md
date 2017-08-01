@@ -1,0 +1,5 @@
+# Bamazon
+
+This is a demostration of node, inquirer and MySQL. Once the repository has been downloaded and all requirments are installed, enter: node bamazonCustomer.js into BASH. A list  of products will be shown with their id, name, price and quantity in stock. User will be prompted to pick an item by using the item's id number. Then the user will be prompted to enter the purchase quantity desired by slecting an item id. After entering the desired purchase quantity the user will be given a price total. If one does not wish to install all that is necessay to run the js file one can look at the images in the assets folder. They are numbered for viewing order. 
+
+bamazonManager.js demostrates read, update, and create to a  MySQL database. It works the same way as bamazonCustomer.js with added features. The user can view only stock below a quantity of 5. The user can also add inventory manually and even add a new product by inputting the price, inventory and department name it goes in.  
